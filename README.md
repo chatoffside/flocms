@@ -3,8 +3,6 @@
 
 
 
-# Deploy
-https://flocms.herokuapp.com/
 
 
 # Repo
