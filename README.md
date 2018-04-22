@@ -60,7 +60,18 @@ Add in config/datastores.js for DEV env :
     url: 'mysql://admin:adminF00b4r@host:3306/rndflo_com_dev_db',
 
 //------------------------------------------------------------------------------------------------------------------------------------
+## Troubleshooting 
 
+https://stackoverflow.com/questions/42371103/sails-js-and-heroku-an-error-occurred-in-the-application-and-your-page-could-n
+
+==> heroku config:set NODE_ENV=staging
+Setting NODE_ENV and restarting ⬢ flocms... done, v25
+NODE_ENV: staging
+~/repos/rndflo/githubrepos/flocms (master) 
+==> heroku config 
+=== flocms Config Vars
+HEROKU_POSTGRESQL_SILVER_URL: postgres://eralzxcvisnjyr:f32bd2b574024b503c218b4f4a56819be0200fc80b8e403902093511f389244d@ec2-54-243-213-188.compute-1.amazonaws.com:5432/d1plrcjq7i6a4s
+NODE_ENV:                     staging
 
 
 //------------------------------------------------------------------------------------------------------------------------------------
