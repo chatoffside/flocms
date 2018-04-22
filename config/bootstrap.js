@@ -31,6 +31,11 @@ module.exports.bootstrap = async function(done) {
   if (sails.config.models.migrate !== 'drop' && sails.config.environment !== 'test') {
     // If this is _actually_ a production environment (real or simulated), or we have
     // `migrate: safe` enabled, then prevent accidentally removing all data!
+    if (process.env.NODE_ENV==='staging') {
+      sails.log.warn('------------=----------------------');
+      sails.log.warn('Env is set to staging');
+    }//•
+
     if (process.env.NODE_ENV==='staging' || sails.config.models.migrate === 'safe') {
       sails.log.warn('----------------------------------');
       sails.log.warn('Env is set to staging or migrate is set to safe');
