@@ -7,6 +7,11 @@
 https://flocms.herokuapp.com/
 
 
+# Repo
+
+https://github.com/rndflo/flocms is the current repo
+
+
 //------------------------------------------------------------------------------------------------------------------------------------
 
 ==> nvm install v9.11.1
